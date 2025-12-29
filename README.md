@@ -110,13 +110,14 @@ Stored locally in /uploads
 File paths are saved in MongoDB
 
 🚀 Running Backend Locally
+
  cd server
- 
+
  npm install
 
  npm run dev
 
 
-Server runs on:
+# Server runs on:
 
 # http://localhost:5000
