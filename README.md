@@ -72,9 +72,11 @@ server/
 
 Create a .env file inside server/:
 
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-FRONTEND_URL=http://localhost:5173
+ PORT=5000
+
+ MONGO_URI=your_mongodb_connection_string
+
+ FRONTEND_URL=http://localhost:5173
 
 Explanation:
 
@@ -97,19 +99,6 @@ Production deployment
 
 Browser security compliance
 
-📡 API Endpoints (Important Only)
-🔹 Auth
-Method	Endpoint	Description
-POST	/api/auth/login	Mock vendor login using email
-🔹 Event Flow
-Method	Endpoint	Description
-POST	/api/events/checkin	Vendor check-in (photo + location)
-POST	/api/events/start	Verify start OTP
-POST	/api/events/pre-setup	Upload pre-setup photo
-POST	/api/events/post-setup	Upload post-setup photo + notes
-POST	/api/events/generate-end-otp	Generate final OTP
-POST	/api/events/complete	Verify final OTP & complete event
-
 📌 OTP is mocked and returned in API response for frontend display.
 
 🖼️ Image Upload Handling
@@ -121,9 +110,9 @@ Stored locally in /uploads
 File paths are saved in MongoDB
 
 🚀 Running Backend Locally
-# cd server
-# npm install
-# npm run dev
+ cd server
+ npm install
+ npm run dev
 
 
 Server runs on:
