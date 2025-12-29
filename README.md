@@ -111,7 +111,9 @@ File paths are saved in MongoDB
 
 🚀 Running Backend Locally
  cd server
+ 
  npm install
+
  npm run dev
 
 
