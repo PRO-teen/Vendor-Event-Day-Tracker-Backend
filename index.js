@@ -41,10 +41,6 @@ app.get('/',(req,res)=>{
 });
 
 
-//69512d3100795fe7eb4e3a97 
-//6951e0d4c5d20f1f298d8b47 event
-//9218 otp
-
 
 
 
